@@ -39,6 +39,14 @@ pip install -e .
 
 See `examples/example_single_station.py` for a complete workflow: fitting both methods on a single station, computing SMEV return levels, and plotting the bias per return period.
 
+## Data
+
+**Observational precipitation data** used in this project are provided by the Autonomous Province of Bolzano – South Tyrol and are available for download at https://weather.province.bz.it/en/download-data
+
+**Convection Permitting Model (CPM) data** are extracted from the CORDEX Flagship Pilot Study on Convection (FPS-Convection). If you use these data, please cite:
+
+Coppola, E.; Sobolowski, S.; Pichelli, E.; Raffaele, F.; Ahrens, B.; Anders, I.; Ban, N.; Bastin, S.; Belda, M.; Belusic, D. & others (2020). A first-of-its-kind multi-model convection permitting ensemble for investigating convective phenomena over Europe and the Mediterranean. *Climate Dynamics*, 55(1), 3–34. https://doi.org/10.1007/s00382-018-4521-8
+
 ## References
 
 Boe, J.; Terray, L.; Habets, F. & Martin, E. (2007). Statistical and dynamical downscaling of the Seine basin climate for hydro-meteorological studies. *International Journal of Climatology*, 27, 1643–1655. https://doi.org/10.1002/joc.1602
