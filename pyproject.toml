@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=75.8.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyRQMAP_Tail"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+  "numpy",
+  "scipy",
+  "statsmodels",
+  "matplotlib",
+  "pandas",
+  "numba",
+  "pyarrow",
+  "pyTENAX @ git+https://github.com/PetrVey/pyTENAX.git",
+]
+
+description = "Quantile mapping with Weibull tail correction for extreme precipitation bias correction"
+readme = "README.md"
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.11",
+    "Operating System :: OS Independent",
+]
+license = { file = "LICENSE" }
+authors = [
+   {name = "Petr Vohnicky", email = "petr.vohnicky@unipd.it"},
+]
+
+[project.urls]
+url = "https://github.com/PetrVey/pyRQMAP_Tail"
+
+[tool.setuptools]
+package-dir = {"" = "src"}

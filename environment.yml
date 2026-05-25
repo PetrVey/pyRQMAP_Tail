@@ -1,0 +1,17 @@
+name: pyRQMAP_Tail_env
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.11.13
+  - numpy=1.26.2
+  - scipy=1.14.1
+  - statsmodels=0.14.4
+  - matplotlib=3.10.0
+  - pandas=2.2.3
+  - numba
+  - pyarrow
+  - setuptools>=75.8.0
+  - pip
+  - pip:
+      - git+https://github.com/PetrVey/pyTENAX.git
